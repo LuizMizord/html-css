@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong>usando a tag STRONG (semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (n]ao semântica).</p>
+    <p>Nesta frase, temos un <em>termo em ênfase</em>usando a tag EM (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark>no final.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big> texto grande </big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> como a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h2>Citações</h2>
+    <p>No <q>texto</q>texto a seguir:</p>
+    <h2>Citações mais longas</h2>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Texto">
+        A palavra texto serve para
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Eu estou estudando <abbr title="https://pt.wikipedia.org/wiki/HTML">HTML</abbr>para criar sites.</p>
+    <h2>Texto Invertido</h2>
+    <bdo dir="rtl">Esse texto todo está inverrtido no formato RIGHT-TO-LEFT.</bdo>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+</body>
+</html>
